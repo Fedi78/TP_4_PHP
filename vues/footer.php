@@ -18,8 +18,6 @@
     <footer class="container">
       <p>&copy; Company 2017-2018</p>
     </footer>
-        
-     
       
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -35,7 +33,6 @@ $("a[data-supp]").click(function(){
    $("#btnSuppr").attr("href",lien);
    $(".modal-body").text(message);
 });
-
   </script>
 </body>
 </html>
