@@ -1,7 +1,13 @@
 <?php session_start(); ?>
-<?php include "vues/header.php";?>
+<?php include "vues/header.php";
+$uc =empty($_GET['uc']) ? "accueil" : $_GET['uc'];
 
-
-
-<?php include "vues/footer.php";?>
+switch($uc){
+case 'accueil' :
+        include('vues/accueil.php');
+        break;
+    case 'continents' :
+        break;
+}
+include "vues/footer.php";?>
 
